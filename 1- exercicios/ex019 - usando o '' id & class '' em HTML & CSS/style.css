@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+    background-color: darkslategray;
+}
+
+#main {
+    color: black;
+    background-color: aqua;
+}
+
+h1 {
+    color: aqua;
+}
+h2 {
+    color: aquamarine;
+}
+p {
+    color: white;
+}
+
+.the_01{
+    background-color: violet;
+    color: blueviolet;
+    font-weight: bolder;
+}

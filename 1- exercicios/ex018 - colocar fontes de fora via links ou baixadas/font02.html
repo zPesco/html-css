@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: fonte01;
+            src: url(BlackSparrow.otf) format(opentype);
+        }
+            /*  =============================================
+                TIPOS DE format()
+                -   opentype (otf)
+                -   truetype (ttf)
+                -   embedded-opentype
+                -   truetype-aat (Apple Advanced Typography)
+                -   svg
+                ==============================================
+            */ 
+        p {
+            font-family: fonte01,Arial, Helvetica, sans-serif;
+            font-size: 24px;
+        }
+
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 3em;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo doloremque atque voluptate soluta iste dolorum odit rem qui. Perferendis laudantium magni odio commodi accusantium optio quis quidem cumque nostrum sunt?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quam deleniti nesciunt. Expedita tempora quis, tempore quas sequi quod voluptatibus omnis porro neque sed natus labore quidem voluptatum repellendus laborum?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque unde, a sit doloremque ex culpa consequuntur, consequatur officiis sint voluptatum velit aliquid laudantium voluptatem impedit mollitia, provident explicabo et nesciunt.</p>
+</body>
+</html>
